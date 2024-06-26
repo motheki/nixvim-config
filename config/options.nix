@@ -12,8 +12,8 @@
     smartcase = true;
 
     # Tab defaults (might get overwritten by an LSP server)
-    tabstop = 4;
-    shiftwidth = 4;
+    tabstop = 2;
+    shiftwidth = 2;
     softtabstop = 0;
     expandtab = true;
     smarttab = true;
@@ -56,8 +56,6 @@
   # ];
 
   highlight = {
-    Comment.fg = "#ff00ff";
-    Comment.bg = "#000000";
     Comment.underline = true;
     Comment.bold = true;
   };
