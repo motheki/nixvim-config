@@ -32,7 +32,7 @@
 
     none-ls = {
       enable = true;
-      cmd = ["bash -c nvim"];
+      cmd = ["nvim"];
       debug = true;
       sources = {
         code_actions = {
@@ -75,9 +75,6 @@
     # Notify
     notify = {
       enable = true;
-      backgroundColour = "#1e1e2e";
-      fps = 60;
-      render = "default";
       timeout = 500;
       topDown = true;
     };
@@ -213,14 +210,6 @@
     # Todo comments
     todo-comments = {
       enable = true;
-      colors = {
-        error = ["DiagnosticError" "ErrorMsg" "#DC2626"];
-        warning = ["DiagnosticWarn" "WarningMsg" "#FBBF24"];
-        info = ["DiagnosticInfo" "#2563EB"];
-        hint = ["DiagnosticHint" "#10B981"];
-        default = ["Identifier" "#7C3AED"];
-        test = ["Identifier" "#FF00FF"];
-      };
     };
 
     # File tree
@@ -329,7 +318,7 @@
     };
   };
 
-  colorschemes.catppuccin = {
+  colorschemes.ayu = {
     enable = true;
     settings = {
       no_bold = false;
